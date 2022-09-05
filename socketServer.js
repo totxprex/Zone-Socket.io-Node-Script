@@ -19,7 +19,7 @@ mongoose.connect(process.env.mongodb, {
 
 const io = require("socket.io")
 
-const socket = io(5500, {
+const socket = io(process.env.PORT, {
   cors: {
     origin: "*"
   }
