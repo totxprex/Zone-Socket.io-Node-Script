@@ -1,0 +1,23 @@
+{
+  "name": "socketserver",
+  "version": "1.0.0",
+  "description": "Socket For Zone",
+  "main": "socketServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node socketServer.js"
+  },
+  "keywords": [
+    "Socket"
+  ],
+  "engines": {"node": ">=10.0.0"},
+  "author": "Tolulope Mumuney",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "mongoose": "^5.13.15",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.2",
+    "validator": "^13.7.0"
+  }
+}
